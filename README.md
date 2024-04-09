@@ -1,5 +1,7 @@
 # Snuck
 
+![Screen](SmartSelect_20240409_104502_Termux.jpg)
+
 Snuck é um jogo simples de apostas em que você tenta a sorte escolhendo uma cor e fazendo uma aposta. O objetivo é acertar a cor sorteada e aumentar seu saldo inicial de R$25,00. Se você errar, perde a aposta feita. As opções de cores são Branco, Vermelho e Verde. O jogo continua até que seu saldo chegue a zero, dando a opção de recarregar o saldo para continuar jogando ou sair do jogo. Divirta-se e boa sorte!
 
 ## Como Jogar
