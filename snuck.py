@@ -55,7 +55,7 @@ def play_again(saldo):
             saldo += rr
             saldo_formatted = "{:,.2f}".format(saldo)
             sleep(1)
-            print('\033[1mVocê Adicionou com ÊXITO \033[1;32mR${}\033[m a sua conta!'.format(saldo_formatted))
+            print(f'\033[1mVocê Adicionou com ÊXITO \033[1;32mR${saldo_formatted}\033[m a sua conta!')
             return saldo
         elif r == 2:
             sleep(1)
@@ -75,12 +75,12 @@ def snuck_game():
         cor_sorteada = random.choice(opcoes)
 
         saldo_formatted = "{:,.2f}".format(saldo)
-        print('\n\033[1mSALDO ATUAL\033[1;32m R${}\033[m\n'.format(saldo_formatted))
+        print(f'\n\033[1mSALDO ATUAL\033[1;32m R${saldo_formatted}\033[m\n')
         aposta = get_bet(saldo)
 
         clear_screen()
         saldo_formatted = "{:,.2f}".format(saldo)
-        print('\n\033[1mSALDO ATUAL\033[1;32m R${}\033[m\n'.format(saldo_formatted))
+        print(f'\n\033[1mSALDO ATUAL\033[1;32m R${saldo_formatted}\033[m\n')
         escolha = get_color_choice()
 
         cor_sorteada = random.choice(opcoes)
