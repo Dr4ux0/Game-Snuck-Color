@@ -29,15 +29,19 @@
 
 ## Instruções
 
-* Clone o repositorio
+* Atualizar os repos
 
 ```bash
 apt update && apt upgrade -y
 ```
+* Clonar o Repo
+
 
 ```bash
 git clone https://github.com/Dr4ux0/Game-Snuck-Color
 ```
+
+* Executar o arquivo
 
 ```bash
 python snuck.py
