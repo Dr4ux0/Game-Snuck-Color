@@ -32,7 +32,7 @@
 * Atualizar os repos
 
 ```bash
-apt update && apt upgrade -y
+apt update && apt upgrade -y && apt install git python
 ```
 * Clonar o Repo
 
